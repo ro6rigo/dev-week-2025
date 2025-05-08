@@ -1,13 +1,13 @@
-package me.dio.dev_week_2025;
+package me.dio;
 
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;
 
 @SpringBootApplication
-public class DevWeek2025Application {
+public class Application {
 
 	public static void main(String[] args) {
-		SpringApplication.run(DevWeek2025Application.class, args);
+		SpringApplication.run(Application.class, args);
 	}
 
 }
