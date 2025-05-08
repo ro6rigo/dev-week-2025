@@ -35,8 +35,8 @@ classDiagram
         -String descripton
     }
 
-    Usuario --> Account
-    Usuario --> Card
-    Usuario --> Feature
-    Usuario --> News
+    Usuario "1" *-- "1" Account
+    Usuario "1" *-- "N" Card
+    Usuario "1" *-- "1" Feature
+    Usuario "1" *-- "N" News
 ```
